@@ -24,3 +24,8 @@ Utility View:
 - [ ] Notes -> Obsidian
 - [ ] Check for updates
 - [ ] AI?
+
+Settings Views:
+
+- [x] Adjust Window Color
+- [x] Adjust Volume (WIP)
