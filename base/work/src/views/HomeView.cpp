@@ -1,4 +1,4 @@
-#include "HomeView.h"
+#include "views/HomeView.h"
 #include "imgui.h"
 #include <cstdlib>
 #include <string>
@@ -19,6 +19,8 @@ void OpenURL(const std::string &url) {
 }
 
 void HomeView::Render() {
+  ImVec4 windowColor = ImVec4(1.0f, 0.0f, 0.0f, 1.0f);
+
   ImGui::Begin("HomeView", nullptr, ImGuiWindowFlags_NoTitleBar);
 
   ImGui::Text("Welcome to the HomeView!");

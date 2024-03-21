@@ -3,6 +3,7 @@
 
 #include "ConfigManager.h"
 #include "IView.h"
+#include "widgets/SettingsWidget.h"
 
 class SettingsView : public IView {
 public:
@@ -11,6 +12,7 @@ public:
 
 private:
   ConfigManager *configManager;
+  SettingsWidget *settingsWidget;
 };
 
 #endif // SETTINGSVIEW_H

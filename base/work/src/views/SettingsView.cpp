@@ -1,8 +1,12 @@
-#include "SettingsView.h"
+#include "views/SettingsView.h"
 #include "imgui.h"
+#include "widgets/SettingsWidget.h"
+#include <iostream>
 
 SettingsView::SettingsView(ConfigManager *configManager)
-    : configManager(configManager) {}
+    : configManager(configManager) {
+  settingsWidget = new SettingsWidget(configManager);
+}
 
 void SettingsView::Render() {
   ImGuiWindowFlags window_flags = ImGuiWindowFlags_NoTitleBar |
@@ -10,24 +14,13 @@ void SettingsView::Render() {
                                   ImGuiWindowFlags_NoMove;
   ImGui::Begin("Settings", nullptr, window_flags);
   {
-    ImGui::Text("Welcome to the SettingsView!");
-    ImVec4 red = ImVec4(1.0f, 0.0f, 0.0f, 1.0f);
-    ImVec4 green = ImVec4(0.0f, 1.0f, 0.0f, 1.0f);
-
-    if (ImGui::Button("Set Red", ImVec2(50, 20))) {
-      configManager->SetWindowColor(red);
+    settingsWidget->draw();
+    if (ImGui::Button("Save")) {
+      configManager->Save();
     }
-
-    ImGui::SameLine();
-
-    if (ImGui::Button("Set Green", ImVec2(50, 20))) {
-      configManager->SetWindowColor(green);
+    if (ImGui::Button("Load")) {
+      configManager->Load();
     }
-
-    ImGui::ColorEdit3("Window Color",
-                      (float *)&configManager->GetWindowColor());
-
-                      
+    ImGui::End();
   }
-  ImGui::End();
 }

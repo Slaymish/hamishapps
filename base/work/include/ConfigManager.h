@@ -16,7 +16,7 @@ public:
   ImVec4 GetWindowColor();
 
   void SetEnableSound(bool enableSound);
-  bool GetEnableSound();
+  bool IsSoundEnabled();
 
   void SetVolume(float volume);
   float GetVolume();

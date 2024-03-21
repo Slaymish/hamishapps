@@ -3,7 +3,7 @@
 
 #include "ConfigManager.h" // Include the ConfigManager header
 #include "GuiManager.h"
-#include "IView.h" // Include the IView header
+#include "views/IView.h" // Include the IView header
 #include <GLFW/glfw3.h>
 #include <memory>        // For std::unique_ptr
 #include <unordered_map> // For std::unordered_map

@@ -2,6 +2,8 @@
 # Created by https://www.toptal.com/developers/gitignore/api/clion+all,visualstudio,cmake,c++
 # Edit at https://www.toptal.com/developers/gitignore?templates=clion+all,visualstudio,cmake,c++
 
+base/build/
+
 ### C++ ###
 # Prerequisites
 *.d
@@ -494,5 +496,3 @@ MigrationBackup/
 
 # Ionide (cross platform F# VS Code tools) working folder
 .ionide/
-
-# End of https://www.toptal.com/developers/gitignore/api/clion+all,visualstudio,cmake,c++

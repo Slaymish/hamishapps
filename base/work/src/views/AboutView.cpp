@@ -1,4 +1,4 @@
-#include "AboutView.h"
+#include "views/AboutView.h"
 #include "imgui.h"
 
 void AboutView::Render() {

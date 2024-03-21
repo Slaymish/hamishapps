@@ -1,14 +1,14 @@
 #include "Application.h"
 #include "GuiManager.h"
-#include "IView.h"
+#include "views/IView.h"
 #include <GLFW/glfw3.h>
 #include <glad/glad.h>
 #include <iostream>
 #include <unordered_map>
 
-#include "AboutView.h"
-#include "HomeView.h"
-#include "SettingsView.h"
+#include "views/AboutView.h"
+#include "views/HomeView.h"
+#include "views/SettingsView.h"
 
 using namespace std;
 
@@ -85,6 +85,7 @@ void Application::initViews() {
 }
 
 void Application::renderMenuBar() {
+  ImGui::SetNextWindowPos(ImVec2(0, 0));
   if (ImGui::BeginMainMenuBar()) {
     if (ImGui::MenuItem("Home", nullptr, currentView == ViewType::Home)) {
       currentView = ViewType::Home;
@@ -114,6 +115,10 @@ void Application::renderGUI() {
     // Get the height of the main menu bar
     float menuBarHeight = ImGui::GetFrameHeight();
 
+    // set window color
+    ImVec4 windowColor = getConfigManager()->GetWindowColor();
+    ImGui::GetStyle().Colors[ImGuiCol_WindowBg] = windowColor;
+
     // Adjust the view rendering area to start below the menu bar
     // and use the remaining height
     if (auto it = views.find(currentView); it != views.end()) {
@@ -121,8 +126,7 @@ void Application::renderGUI() {
           ImVec2(0, menuBarHeight)); // Set position below the menu bar
       ImGui::SetNextWindowSize(
           ImVec2(width, height - menuBarHeight)); // Adjust the height
-      it->second
-          ->Render(); // Now Render doesn't need width and height parameters
+      it->second->Render();
     }
 
     guiManager->Render();
@@ -138,6 +142,11 @@ void Application::shutdown() {
   if (window != nullptr) {
     glfwDestroyWindow(window);
     window = nullptr;
+  }
+
+  if (configManager != nullptr) {
+    delete configManager;
+    configManager = nullptr;
   }
 
   cout << "Application::shutdown()" << endl;
