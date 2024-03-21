@@ -1,5 +1,9 @@
 ## Hamish App!
 
+A simple app so I can lump all the things i'm working on into one place
+
+### Plans
+
 Home View:
 
 - [ ] Task List
