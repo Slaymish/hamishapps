@@ -1,6 +1,7 @@
 #ifndef APPLICATION_H
 #define APPLICATION_H
 
+#include "ConfigManager.h" // Include the ConfigManager header
 #include "GuiManager.h"
 #include "IView.h" // Include the IView header
 #include <GLFW/glfw3.h>
@@ -10,6 +11,7 @@
 class Application {
   GLFWwindow *window;
   GUIManager *guiManager;
+  ConfigManager *configManager;
 
   enum class ViewType { Home, Settings, About };
 
@@ -21,6 +23,7 @@ public:
   ~Application();
   void init();
   void initViews();
+  ConfigManager *getConfigManager();
   void initGUI();
   void update();
   void render();

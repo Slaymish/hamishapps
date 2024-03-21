@@ -12,7 +12,8 @@
 
 using namespace std;
 
-Application::Application() : window(nullptr), guiManager(nullptr) {}
+Application::Application()
+    : window(nullptr), guiManager(nullptr), configManager(nullptr) {}
 
 Application::~Application() { shutdown(); }
 
@@ -46,9 +47,15 @@ void Application::init() {
   cout << "GLFW: " << glfwGetVersionString() << endl;
 
   // Initialize the GUI
-
   initViews();
   initGUI();
+}
+
+ConfigManager *Application::getConfigManager() {
+  if (configManager == nullptr) {
+    configManager = new ConfigManager("config.ini");
+  }
+  return configManager;
 }
 
 void Application::initGUI() {
@@ -72,7 +79,8 @@ void Application::render() {
 
 void Application::initViews() {
   views[ViewType::Home] = std::make_unique<HomeView>();
-  views[ViewType::Settings] = std::make_unique<SettingsView>();
+  views[ViewType::Settings] =
+      std::make_unique<SettingsView>(getConfigManager());
   views[ViewType::About] = std::make_unique<AboutView>();
 }
 

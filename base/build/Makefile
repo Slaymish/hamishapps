@@ -315,6 +315,30 @@ src/Application.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hamishapp.dir/build.make CMakeFiles/hamishapp.dir/src/Application.cpp.s
 .PHONY : src/Application.cpp.s
 
+src/ConfigManager.o: src/ConfigManager.cpp.o
+.PHONY : src/ConfigManager.o
+
+# target to build an object file
+src/ConfigManager.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hamishapp.dir/build.make CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.o
+.PHONY : src/ConfigManager.cpp.o
+
+src/ConfigManager.i: src/ConfigManager.cpp.i
+.PHONY : src/ConfigManager.i
+
+# target to preprocess a source file
+src/ConfigManager.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hamishapp.dir/build.make CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.i
+.PHONY : src/ConfigManager.cpp.i
+
+src/ConfigManager.s: src/ConfigManager.cpp.s
+.PHONY : src/ConfigManager.s
+
+# target to generate assembly for a file
+src/ConfigManager.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hamishapp.dir/build.make CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.s
+.PHONY : src/ConfigManager.cpp.s
+
 src/GuiManager.o: src/GuiManager.cpp.o
 .PHONY : src/GuiManager.o
 
@@ -513,6 +537,9 @@ help:
 	@echo "... src/Application.o"
 	@echo "... src/Application.i"
 	@echo "... src/Application.s"
+	@echo "... src/ConfigManager.o"
+	@echo "... src/ConfigManager.i"
+	@echo "... src/ConfigManager.s"
 	@echo "... src/GuiManager.o"
 	@echo "... src/GuiManager.i"
 	@echo "... src/GuiManager.s"

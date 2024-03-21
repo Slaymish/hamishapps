@@ -10,6 +10,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/hamishburke/Documents/Coding/hamishapps/base/work/lib/glad/src/glad.c" "CMakeFiles/hamishapp.dir/lib/glad/src/glad.c.o" "gcc" "CMakeFiles/hamishapp.dir/lib/glad/src/glad.c.o.d"
   "/Users/hamishburke/Documents/Coding/hamishapps/base/work/src/Application.cpp" "CMakeFiles/hamishapp.dir/src/Application.cpp.o" "gcc" "CMakeFiles/hamishapp.dir/src/Application.cpp.o.d"
+  "/Users/hamishburke/Documents/Coding/hamishapps/base/work/src/ConfigManager.cpp" "CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.o" "gcc" "CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.o.d"
   "/Users/hamishburke/Documents/Coding/hamishapps/base/work/src/GuiManager.cpp" "CMakeFiles/hamishapp.dir/src/GuiManager.cpp.o" "gcc" "CMakeFiles/hamishapp.dir/src/GuiManager.cpp.o.d"
   "/Users/hamishburke/Documents/Coding/hamishapps/base/work/src/main.cpp" "CMakeFiles/hamishapp.dir/src/main.cpp.o" "gcc" "CMakeFiles/hamishapp.dir/src/main.cpp.o.d"
   "/Users/hamishburke/Documents/Coding/hamishapps/base/work/src/views/AboutView.cpp" "CMakeFiles/hamishapp.dir/src/views/AboutView.cpp.o" "gcc" "CMakeFiles/hamishapp.dir/src/views/AboutView.cpp.o.d"

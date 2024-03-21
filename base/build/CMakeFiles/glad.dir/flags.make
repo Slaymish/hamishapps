@@ -4,7 +4,7 @@
 # compile C with /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc
 C_DEFINES = 
 
-C_INCLUDES = -I/Users/hamishburke/Documents/Coding/hamishapps/base/work/include -I/Users/hamishburke/Documents/Coding/hamishapps/base/work/lib/glad/include -I/Users/hamishburke/Documents/Coding/hamishapps/base/work/lib/glfw/include -I/Users/hamishburke/Documents/Coding/hamishapps/base/work/lib/imgui/include -I/Users/hamishburke/Documents/Coding/hamishapps/base/work/vendor
+C_INCLUDES = -I/Users/hamishburke/Documents/Coding/hamishapps/base/work/include -I/Users/hamishburke/Documents/Coding/hamishapps/base/work/lib/glad/include -I/Users/hamishburke/Documents/Coding/hamishapps/base/work/lib/glfw/include -I/Users/hamishburke/Documents/Coding/hamishapps/base/work/lib/imgui/include -I/Users/hamishburke/Documents/Coding/hamishapps/base/work/vendor -I/opt/homebrew/include
 
 C_FLAGSarm64 =  -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.4.sdk
 

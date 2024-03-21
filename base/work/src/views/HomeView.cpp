@@ -23,12 +23,17 @@ void HomeView::Render() {
 
   ImGui::Text("Welcome to the HomeView!");
 
-  int btnWidth = 100;
-  int btnHeight = 30;
+  int windowWidth = ImGui::GetMainViewport()->Size.x;
+  int windowHeight = ImGui::GetMainViewport()->Size.y;
 
-  // Place buttons at the center bottom of the window
-  ImGui::SetCursorPosX((ImGui::GetWindowWidth() - btnWidth * 3) / 2);
-  ImGui::SetCursorPosY(ImGui::GetWindowHeight() / 2);
+  float btnWidth = windowWidth / 6;
+  float btnHeight = windowHeight / 20;
+  float btnSpacing = 10;
+
+  ImVec2 centerBottom = ImVec2(windowWidth / 2, windowHeight / 2);
+  centerBottom.y = windowHeight - 50;
+  centerBottom.x -= btnWidth * 1.5 + btnSpacing;
+  ImGui::SetCursorPos(centerBottom);
 
   if (ImGui::Button("My GitHub Repos", ImVec2(btnWidth, btnHeight))) {
     OpenURL("https://github.com/Slaymish");

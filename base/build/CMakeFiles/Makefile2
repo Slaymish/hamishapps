@@ -119,12 +119,12 @@ CMakeFiles/hamishapp.dir/all: CMakeFiles/imgui.dir/all
 CMakeFiles/hamishapp.dir/all: lib/glfw/src/CMakeFiles/glfw.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hamishapp.dir/build.make CMakeFiles/hamishapp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hamishapp.dir/build.make CMakeFiles/hamishapp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=19,20,21,22,23,24,25,26,27,28 "Built target hamishapp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=19,20,21,22,23,24,25,26,27,28,29 "Built target hamishapp"
 .PHONY : CMakeFiles/hamishapp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/hamishapp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles 34
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hamishapp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles 0
 .PHONY : CMakeFiles/hamishapp.dir/rule
@@ -171,7 +171,7 @@ CMakeFiles/glad.dir/clean:
 CMakeFiles/imgui.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/imgui.dir/build.make CMakeFiles/imgui.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=29,30,31,32,33 "Built target imgui"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=30,31,32,33,34 "Built target imgui"
 .PHONY : CMakeFiles/imgui.dir/all
 
 # Build rule for subdir invocation for target.

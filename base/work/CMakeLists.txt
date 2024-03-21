@@ -12,6 +12,13 @@ include_directories(
     ${PROJECT_SOURCE_DIR}/vendor
 )
 
+# Find the Boost library. If you use specific components, list them in the COMPONENTS section.
+# For PropertyTree, you might not need to specify components as it's header-only, but specifying system and filesystem can be useful for other needs.
+find_package(Boost 1.84.0 REQUIRED COMPONENTS system filesystem)
+
+# Include Boost's include directories
+include_directories(${Boost_INCLUDE_DIRS})
+
 # Add source files
 file(GLOB_RECURSE PROJECT_SOURCES
      "${PROJECT_SOURCE_DIR}/src/*.cpp"
@@ -27,6 +34,7 @@ file(GLOB_RECURSE PROJECT_HEADERS
 
 # Define the executable
 add_executable(${PROJECT_NAME} ${PROJECT_SOURCES} ${PROJECT_HEADERS})
+
 
 # Add glad source directly
 set(GLAD_SOURCE ${PROJECT_SOURCE_DIR}/lib/glad/src/glad.c)
@@ -62,3 +70,5 @@ target_link_libraries(${PROJECT_NAME} imgui "${CMAKE_DL_LIBS}")
 
 # Definitions
 target_compile_definitions(${PROJECT_NAME} PRIVATE "GLFW_INCLUDE_NONE")
+
+target_link_libraries(${PROJECT_NAME} ${Boost_LIBRARIES})

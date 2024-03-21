@@ -83,10 +83,24 @@ CMakeFiles/hamishapp.dir/src/Application.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hamishapp.dir/src/Application.cpp.s"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hamishburke/Documents/Coding/hamishapps/base/work/src/Application.cpp -o CMakeFiles/hamishapp.dir/src/Application.cpp.s
 
+CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.o: CMakeFiles/hamishapp.dir/flags.make
+CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.o: /Users/hamishburke/Documents/Coding/hamishapps/base/work/src/ConfigManager.cpp
+CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.o: CMakeFiles/hamishapp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.o -MF CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.o.d -o CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.o -c /Users/hamishburke/Documents/Coding/hamishapps/base/work/src/ConfigManager.cpp
+
+CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/hamishburke/Documents/Coding/hamishapps/base/work/src/ConfigManager.cpp > CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.i
+
+CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/hamishburke/Documents/Coding/hamishapps/base/work/src/ConfigManager.cpp -o CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.s
+
 CMakeFiles/hamishapp.dir/src/GuiManager.cpp.o: CMakeFiles/hamishapp.dir/flags.make
 CMakeFiles/hamishapp.dir/src/GuiManager.cpp.o: /Users/hamishburke/Documents/Coding/hamishapps/base/work/src/GuiManager.cpp
 CMakeFiles/hamishapp.dir/src/GuiManager.cpp.o: CMakeFiles/hamishapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/hamishapp.dir/src/GuiManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hamishapp.dir/src/GuiManager.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hamishapp.dir/src/GuiManager.cpp.o -MF CMakeFiles/hamishapp.dir/src/GuiManager.cpp.o.d -o CMakeFiles/hamishapp.dir/src/GuiManager.cpp.o -c /Users/hamishburke/Documents/Coding/hamishapps/base/work/src/GuiManager.cpp
 
 CMakeFiles/hamishapp.dir/src/GuiManager.cpp.i: cmake_force
@@ -100,7 +114,7 @@ CMakeFiles/hamishapp.dir/src/GuiManager.cpp.s: cmake_force
 CMakeFiles/hamishapp.dir/src/main.cpp.o: CMakeFiles/hamishapp.dir/flags.make
 CMakeFiles/hamishapp.dir/src/main.cpp.o: /Users/hamishburke/Documents/Coding/hamishapps/base/work/src/main.cpp
 CMakeFiles/hamishapp.dir/src/main.cpp.o: CMakeFiles/hamishapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/hamishapp.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hamishapp.dir/src/main.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hamishapp.dir/src/main.cpp.o -MF CMakeFiles/hamishapp.dir/src/main.cpp.o.d -o CMakeFiles/hamishapp.dir/src/main.cpp.o -c /Users/hamishburke/Documents/Coding/hamishapps/base/work/src/main.cpp
 
 CMakeFiles/hamishapp.dir/src/main.cpp.i: cmake_force
@@ -114,7 +128,7 @@ CMakeFiles/hamishapp.dir/src/main.cpp.s: cmake_force
 CMakeFiles/hamishapp.dir/src/views/AboutView.cpp.o: CMakeFiles/hamishapp.dir/flags.make
 CMakeFiles/hamishapp.dir/src/views/AboutView.cpp.o: /Users/hamishburke/Documents/Coding/hamishapps/base/work/src/views/AboutView.cpp
 CMakeFiles/hamishapp.dir/src/views/AboutView.cpp.o: CMakeFiles/hamishapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/hamishapp.dir/src/views/AboutView.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hamishapp.dir/src/views/AboutView.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hamishapp.dir/src/views/AboutView.cpp.o -MF CMakeFiles/hamishapp.dir/src/views/AboutView.cpp.o.d -o CMakeFiles/hamishapp.dir/src/views/AboutView.cpp.o -c /Users/hamishburke/Documents/Coding/hamishapps/base/work/src/views/AboutView.cpp
 
 CMakeFiles/hamishapp.dir/src/views/AboutView.cpp.i: cmake_force
@@ -128,7 +142,7 @@ CMakeFiles/hamishapp.dir/src/views/AboutView.cpp.s: cmake_force
 CMakeFiles/hamishapp.dir/src/views/HomeView.cpp.o: CMakeFiles/hamishapp.dir/flags.make
 CMakeFiles/hamishapp.dir/src/views/HomeView.cpp.o: /Users/hamishburke/Documents/Coding/hamishapps/base/work/src/views/HomeView.cpp
 CMakeFiles/hamishapp.dir/src/views/HomeView.cpp.o: CMakeFiles/hamishapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/hamishapp.dir/src/views/HomeView.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hamishapp.dir/src/views/HomeView.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hamishapp.dir/src/views/HomeView.cpp.o -MF CMakeFiles/hamishapp.dir/src/views/HomeView.cpp.o.d -o CMakeFiles/hamishapp.dir/src/views/HomeView.cpp.o -c /Users/hamishburke/Documents/Coding/hamishapps/base/work/src/views/HomeView.cpp
 
 CMakeFiles/hamishapp.dir/src/views/HomeView.cpp.i: cmake_force
@@ -142,7 +156,7 @@ CMakeFiles/hamishapp.dir/src/views/HomeView.cpp.s: cmake_force
 CMakeFiles/hamishapp.dir/src/views/SettingsView.cpp.o: CMakeFiles/hamishapp.dir/flags.make
 CMakeFiles/hamishapp.dir/src/views/SettingsView.cpp.o: /Users/hamishburke/Documents/Coding/hamishapps/base/work/src/views/SettingsView.cpp
 CMakeFiles/hamishapp.dir/src/views/SettingsView.cpp.o: CMakeFiles/hamishapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/hamishapp.dir/src/views/SettingsView.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/hamishapp.dir/src/views/SettingsView.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hamishapp.dir/src/views/SettingsView.cpp.o -MF CMakeFiles/hamishapp.dir/src/views/SettingsView.cpp.o.d -o CMakeFiles/hamishapp.dir/src/views/SettingsView.cpp.o -c /Users/hamishburke/Documents/Coding/hamishapps/base/work/src/views/SettingsView.cpp
 
 CMakeFiles/hamishapp.dir/src/views/SettingsView.cpp.i: cmake_force
@@ -156,7 +170,7 @@ CMakeFiles/hamishapp.dir/src/views/SettingsView.cpp.s: cmake_force
 CMakeFiles/hamishapp.dir/vendor/imgui_impl_glfw.cpp.o: CMakeFiles/hamishapp.dir/flags.make
 CMakeFiles/hamishapp.dir/vendor/imgui_impl_glfw.cpp.o: /Users/hamishburke/Documents/Coding/hamishapps/base/work/vendor/imgui_impl_glfw.cpp
 CMakeFiles/hamishapp.dir/vendor/imgui_impl_glfw.cpp.o: CMakeFiles/hamishapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/hamishapp.dir/vendor/imgui_impl_glfw.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/hamishapp.dir/vendor/imgui_impl_glfw.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hamishapp.dir/vendor/imgui_impl_glfw.cpp.o -MF CMakeFiles/hamishapp.dir/vendor/imgui_impl_glfw.cpp.o.d -o CMakeFiles/hamishapp.dir/vendor/imgui_impl_glfw.cpp.o -c /Users/hamishburke/Documents/Coding/hamishapps/base/work/vendor/imgui_impl_glfw.cpp
 
 CMakeFiles/hamishapp.dir/vendor/imgui_impl_glfw.cpp.i: cmake_force
@@ -170,7 +184,7 @@ CMakeFiles/hamishapp.dir/vendor/imgui_impl_glfw.cpp.s: cmake_force
 CMakeFiles/hamishapp.dir/vendor/imgui_impl_opengl3.cpp.o: CMakeFiles/hamishapp.dir/flags.make
 CMakeFiles/hamishapp.dir/vendor/imgui_impl_opengl3.cpp.o: /Users/hamishburke/Documents/Coding/hamishapps/base/work/vendor/imgui_impl_opengl3.cpp
 CMakeFiles/hamishapp.dir/vendor/imgui_impl_opengl3.cpp.o: CMakeFiles/hamishapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/hamishapp.dir/vendor/imgui_impl_opengl3.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/hamishapp.dir/vendor/imgui_impl_opengl3.cpp.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/hamishapp.dir/vendor/imgui_impl_opengl3.cpp.o -MF CMakeFiles/hamishapp.dir/vendor/imgui_impl_opengl3.cpp.o.d -o CMakeFiles/hamishapp.dir/vendor/imgui_impl_opengl3.cpp.o -c /Users/hamishburke/Documents/Coding/hamishapps/base/work/vendor/imgui_impl_opengl3.cpp
 
 CMakeFiles/hamishapp.dir/vendor/imgui_impl_opengl3.cpp.i: cmake_force
@@ -184,7 +198,7 @@ CMakeFiles/hamishapp.dir/vendor/imgui_impl_opengl3.cpp.s: cmake_force
 CMakeFiles/hamishapp.dir/lib/glad/src/glad.c.o: CMakeFiles/hamishapp.dir/flags.make
 CMakeFiles/hamishapp.dir/lib/glad/src/glad.c.o: /Users/hamishburke/Documents/Coding/hamishapps/base/work/lib/glad/src/glad.c
 CMakeFiles/hamishapp.dir/lib/glad/src/glad.c.o: CMakeFiles/hamishapp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/hamishapp.dir/lib/glad/src/glad.c.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/hamishapp.dir/lib/glad/src/glad.c.o"
 	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/hamishapp.dir/lib/glad/src/glad.c.o -MF CMakeFiles/hamishapp.dir/lib/glad/src/glad.c.o.d -o CMakeFiles/hamishapp.dir/lib/glad/src/glad.c.o -c /Users/hamishburke/Documents/Coding/hamishapps/base/work/lib/glad/src/glad.c
 
 CMakeFiles/hamishapp.dir/lib/glad/src/glad.c.i: cmake_force
@@ -198,6 +212,7 @@ CMakeFiles/hamishapp.dir/lib/glad/src/glad.c.s: cmake_force
 # Object files for target hamishapp
 hamishapp_OBJECTS = \
 "CMakeFiles/hamishapp.dir/src/Application.cpp.o" \
+"CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.o" \
 "CMakeFiles/hamishapp.dir/src/GuiManager.cpp.o" \
 "CMakeFiles/hamishapp.dir/src/main.cpp.o" \
 "CMakeFiles/hamishapp.dir/src/views/AboutView.cpp.o" \
@@ -211,6 +226,7 @@ hamishapp_OBJECTS = \
 hamishapp_EXTERNAL_OBJECTS =
 
 hamishapp: CMakeFiles/hamishapp.dir/src/Application.cpp.o
+hamishapp: CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.o
 hamishapp: CMakeFiles/hamishapp.dir/src/GuiManager.cpp.o
 hamishapp: CMakeFiles/hamishapp.dir/src/main.cpp.o
 hamishapp: CMakeFiles/hamishapp.dir/src/views/AboutView.cpp.o
@@ -223,8 +239,11 @@ hamishapp: CMakeFiles/hamishapp.dir/build.make
 hamishapp: lib/glfw/src/libglfw3.a
 hamishapp: libglad.a
 hamishapp: libimgui.a
+hamishapp: /opt/homebrew/lib/libboost_system-mt.dylib
+hamishapp: /opt/homebrew/lib/libboost_filesystem-mt.dylib
+hamishapp: /opt/homebrew/lib/libboost_atomic-mt.dylib
 hamishapp: CMakeFiles/hamishapp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking CXX executable hamishapp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/hamishburke/Documents/Coding/hamishapps/base/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Linking CXX executable hamishapp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/hamishapp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

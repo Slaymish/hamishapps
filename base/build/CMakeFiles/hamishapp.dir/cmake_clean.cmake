@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/hamishapp.dir/lib/glad/src/glad.c.o.d"
   "CMakeFiles/hamishapp.dir/src/Application.cpp.o"
   "CMakeFiles/hamishapp.dir/src/Application.cpp.o.d"
+  "CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.o"
+  "CMakeFiles/hamishapp.dir/src/ConfigManager.cpp.o.d"
   "CMakeFiles/hamishapp.dir/src/GuiManager.cpp.o"
   "CMakeFiles/hamishapp.dir/src/GuiManager.cpp.o.d"
   "CMakeFiles/hamishapp.dir/src/main.cpp.o"
