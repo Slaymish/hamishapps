@@ -36,6 +36,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v3
+      with:
+          submodules: recursive
 
     - name: Set reusable strings
       id: strings
@@ -44,11 +46,19 @@ jobs:
         echo "build-output-dir=${{ github.workspace }}/base/build" >> "$GITHUB_OUTPUT"
         echo "source-dir=${{ github.workspace }}/base/work" >> "$GITHUB_OUTPUT"
 
+    - name: Install Vcpkg and Boost
+      run: |
+        git clone https://github.com/microsoft/vcpkg.git
+        ./vcpkg/bootstrap-vcpkg.sh
+        ./vcpkg/vcpkg install boost-system boost-filesystem --triplet ${{ matrix.triplet }}
+      shell: bash
+      env:
+        VCPKG_DEFAULT_TRIPLET: ${{ matrix.triplet }}
+
     - name: Configure CMake
       run: >
         cmake -B ${{ steps.strings.outputs.build-output-dir }}
-        -DCMAKE_CXX_COMPILER=${{ matrix.cpp_compiler }}
-        -DCMAKE_C_COMPILER=${{ matrix.c_compiler }}
+        -DCMAKE_TOOLCHAIN_FILE=${{ github.workspace }}/vcpkg/scripts/buildsystems/vcpkg.cmake
         -DCMAKE_BUILD_TYPE=${{ matrix.build_type }}
         -S ${{ steps.strings.outputs.source-dir }}
 
